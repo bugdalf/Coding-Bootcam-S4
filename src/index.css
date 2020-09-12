@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  border: dashed 1px green;
+}
+
+.Main {
+  border: solid 1px green;
+  height: 99vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Card {
+  border: solid 1px brown;
+  width: 80%;
+  height: 60rem;
+}
+.Avatar__container {
+  border: solid 1px red;
+  width: 100%;
+  height: 28rem;
+  background-image: url("../images/pattern-bg.svg");
+  background-size: contain;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.Avatar__image {
+  border: solid 2px orange;
+  height: 25.5rem;
+  width: 80%;
+}
+
+.Buttons {
+  width: 8rem;
+  height: 4rem;
+  position: absolute;
+  border-radius: 20px;
+  border: solid 2px Red;
+  top: 23rem;
+  display: flex;
+  justify-content: center;
+}
+
+.Button {
+  width: 4rem;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25%;
+}
+
+.Left {
+  border-radius: 20px 0 0 20px;
+  background-image: url("../images/icon-prev.svg");
+}
+
+.Right {
+  border-radius: 0 20px 20px 0;
+  background-image: url("../images/icon-next.svg");
+}
+
+.Info__container {
+  border: solid 1px violet;
+  width: 100%;
+  height: 32rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Info__phrase {
+  width: 100%;
+  height: 18rem;
+  border: solid 1px rgb(58, 148, 85);
+}
+
+.Info__person {
+  width: 15rem;
+  height: 8rem;
+  border: solid 1px rgb(99, 16, 74);
+}
