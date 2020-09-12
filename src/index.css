@@ -25,13 +25,15 @@ body {
   width: 80%;
   height: 60rem;
 }
+
 .Avatar__container {
   border: solid 1px red;
   width: 100%;
   height: 28rem;
   background-image: url("../images/pattern-bg.svg");
   background-size: contain;
-
+  background-repeat: no-repeat;
+  background-position: right;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -93,4 +95,48 @@ body {
   width: 15rem;
   height: 8rem;
   border: solid 1px rgb(99, 16, 74);
+}
+
+@media screen and (min-width: 1280px) {
+  .Card {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-areas: "Info Avatar";
+  }
+
+  .Avatar__container {
+    height: 100%;
+    grid-area: Avatar;
+    justify-content: center;
+    background-size: cover;
+    padding-top: 1rem;
+  }
+
+  .Avatar__image {
+    height: 50rem;
+    width: 41rem;
+    margin-left: -10rem;
+  }
+
+  .Buttons {
+    top: 53rem;
+    left: 0;
+  }
+
+  .Info__container {
+    height: 100%;
+    grid-area: Info;
+    box-sizing: content-box;
+    padding-top: 20rem;
+    display: block;
+  }
+
+  .Info__phrase {
+    height: 25rem;
+  }
+
+  .Info__person {
+    width: 20rem;
+  }
 }
