@@ -9,11 +9,11 @@ html {
 }
 
 body {
-  border: dashed 1px green;
+  /* border: dashed 1px green; */
 }
 
 .Main {
-  border: solid 1px green;
+  /* border: solid 1px green; */
   height: 99vh;
   display: flex;
   justify-content: center;
@@ -21,37 +21,45 @@ body {
 }
 
 .Card {
-  border: solid 1px brown;
+  /* border: solid 1px brown; */
   width: 80%;
   height: 60rem;
 }
 
 .Avatar__container {
-  border: solid 1px red;
+  /* border: solid 1px red; */
   width: 100%;
   height: 28rem;
   background-image: url("../images/pattern-bg.svg");
-  background-size: contain;
+  background-size: 105%;
   background-repeat: no-repeat;
   background-position: right;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
+  padding-top: 2.2rem;
+}
+
+.Avatar__image--container {
+  /* border: solid 2px orange; */
+  height: 22.8rem;
+  width: 80%;
+  border-radius: 0.5rem;
+  overflow: hidden;
 }
 
 .Avatar__image {
-  border: solid 2px orange;
-  height: 25.5rem;
-  width: 80%;
+  width: 100%;
+  height: 100%;
 }
 
 .Buttons {
+  /* border: solid 2px Red; */
   width: 8rem;
   height: 4rem;
   position: absolute;
   border-radius: 20px;
-  border: solid 2px Red;
   top: 23rem;
   display: flex;
   justify-content: center;
@@ -77,24 +85,42 @@ body {
 }
 
 .Info__container {
-  border: solid 1px violet;
+  /* border: solid 1px violet; */
   width: 100%;
   height: 32rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 3rem;
 }
 
 .Info__phrase {
   width: 100%;
   height: 18rem;
-  border: solid 1px rgb(58, 148, 85);
+  padding-top: 2.5rem;
+  text-align: center;
+  /* border: solid 1px rgb(58, 148, 85); */
+  background-image: url("../images/pattern-quotes.svg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 20%;
+  font-size: 2rem;
 }
 
 .Info__person {
   width: 15rem;
   height: 8rem;
-  border: solid 1px rgb(99, 16, 74);
+  /* border: solid 1px rgb(99, 16, 74); */
+  text-align: center;
+}
+
+.Person__name {
+  font-size: 2rem;
+}
+
+.Person__jobTitle {
+  font-size: 1.6rem;
+  color: hsl(240, 18%, 77%);
 }
 
 @media screen and (min-width: 1280px) {
@@ -113,7 +139,7 @@ body {
     padding-top: 1rem;
   }
 
-  .Avatar__image {
+  .Avatar__image--container {
     height: 50rem;
     width: 41rem;
     margin-left: -10rem;
@@ -138,5 +164,11 @@ body {
 
   .Info__person {
     width: 20rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .Avatar__image {
+    width: 60rem;
   }
 }
