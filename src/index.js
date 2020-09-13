@@ -27,6 +27,7 @@ const Vander = {
   name: "Vander Idme",
   jobTitle: "Developer",
   phrase: "Practica... practica y sigue practicando",
+  image: "./images/image-vander.jpeg",
 };
 
 const people = [Tanya, John, Vander];
