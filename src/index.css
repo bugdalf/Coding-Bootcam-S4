@@ -140,6 +140,11 @@ body {
 }
 
 @media screen and (min-width: 1280px) {
+  body {
+    overflow-y: hidden;
+    background-size: 40%;
+  }
+
   .Card {
     width: 90%;
     display: grid;
@@ -162,7 +167,7 @@ body {
   }
 
   .Buttons {
-    top: 57rem;
+    top: 54rem;
     left: -6rem;
     z-index: 1;
   }
@@ -206,7 +211,31 @@ body {
 }
 
 @media screen and (min-width: 1440px) {
+  .Avatar__container {
+    height: 100%;
+    background-size: contain;
+  }
+
   .Avatar__image {
+    height: 60rem;
     width: 60rem;
+  }
+  .Buttons {
+    top: 66.5rem;
+    left: 2rem;
+    z-index: 1;
+  }
+
+  .Info__container {
+    padding-top: 30rem;
+  }
+
+  .Person__name {
+    font-size: 2.5rem;
+    margin-right: 2rem;
+  }
+
+  .Person__jobTitle {
+    font-size: 2.5rem;
   }
 }
