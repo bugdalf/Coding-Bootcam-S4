@@ -2,7 +2,7 @@
 
 ![Design preview for the Coding Bootcamp Testimonials Slider coding challenge](./design/desktop-preview.jpg)
 
-Mira el resultado [Demo]()
+Mira el resultado [Demo](https://ankynator.github.io/Coding-Bootcam-S4/)
 
 **Para realizar este reto, se utilizo HTML CSS y JS**
 
@@ -19,6 +19,6 @@ Mira el resultado [Demo]()
 
 - Este reto pertenece a la lista de retos de [Frontend Mentor](https://www.frontendmentor.io)
 
-- Fomentado/impulsado/obligado por [#PlatziWebChallange - Semana #3](https://platzi.com/comunidad/platziwebchallange-semana-3/)
+- Fomentado/impulsado/obligado por [#PlatziWebChallange - Semana #4](https://platzi.com/comunidad/platziwebchallange-semana-4/)
 
 - [#PlatziWebChallange](https://platzi.com/blog/platzi_web_challenge/)
