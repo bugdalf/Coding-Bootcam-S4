@@ -34,6 +34,17 @@ const people = [Tanya, John, Vander];
 
 buttonLeft.addEventListener("click", anterior);
 buttonRight.addEventListener("click", siguiente);
+document.addEventListener("keydown", detectarTeclado);
+
+function detectarTeclado(e) {
+  if (e.key === "ArrowLeft") {
+    anterior();
+  }
+
+  if (e.key === "ArrowRight") {
+    siguiente();
+  }
+}
 
 function siguiente() {
   contador++;
