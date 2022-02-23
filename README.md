@@ -2,7 +2,7 @@
 
 ![Design preview for the Coding Bootcamp Testimonials Slider coding challenge](./design/desktop-preview.jpg)
 
-Mira el resultado [Demo](https://ankynator.github.io/Coding-Bootcam-S4/)
+Mira el resultado [Demo](https://bugdalf.github.io/Coding-Bootcam-S4/)
 
 **Para realizar este reto, se utilizo HTML CSS y JS**
 
